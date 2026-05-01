@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Bokam | AI Developer & Cybersecurity Enthusiast</title>
+    <meta name="description"
+        content="Portfolio of Rohit Bokam - AI Developer, Web Developer, and Cybersecurity Enthusiast.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="container hero-container text-center">
+                <div class="hero-content">
+                    <p class="subtitle">Hello, I am</p>
+                    <h1 class="main-heading">ROHIT BOKAM</h1>
+                    <h2 class="role">AI Developer | Web Developer | Cybersecurity</h2>
+                    <p class="desc">
+                        AI Developer with expertise in web development and user experience. Skilled in Python, Java, and
+                        modern web technologies. Experienced in AI model evaluation, cybersecurity, and building
+                        user-centric solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll</p>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Experience</h2>
+                </div>
+                <div class="timeline-wrapper">
+                    <div class="timeline-line" id="t-line"></div>
+                    <div class="scroll-dot" id="s-dot"></div>
+                    <div class="timeline">
+                        <div class="timeline-item right gs-reveal">
+                            <div class="timeline-content">
+                                <h3>Artificial Intelligence Developer</h3>
+                                <h4>Outlier <span class="duration">(Remote, San Francisco, USA)</span></h4>
+                                <p>Evaluated AI-generated code and responses for accuracy, effectiveness, and alignment with user needs.</p>
+                                <p class="tech">Technologies: Python, Java</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left gs-reveal">
+                            <div class="timeline-content">
+                                <h3>Web Developer</h3>
+                                <h4>Powerstorm <span class="duration">(Hybrid, Visakhapatnam, India)</span></h4>
+                                <p>Developed and maintained responsive websites using HTML, CSS, JavaScript, and databases. Implemented user-friendly features and optimized performance.</p>
+                                <p class="tech">Technologies: HTML, CSS, JavaScript, MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="test-scores" class="section alt-bg">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Test Scores</h2>
+                </div>
+                <div class="scores-grid">
+                    <div class="score-card gs-reveal">
+                        <div class="score-card-header">
+                            <div>
+                                <h3>Duolingo English Test</h3>
+                                <span class="date">Sept 2025</span>
+                            </div>
+                            <div class="score-total">
+                                <span class="score-number">120</span>
+                                <span class="score-denom">/ 160</span>
+                                <span class="score-label">B2 CEFR</span>
+                            </div>
+                        </div>
+                        <div class="score-bars">
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Speaking</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 68.75%"></div></div>
+                                <span class="score-bar-val">110</span>
+                            </div>
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Writing</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 75%"></div></div>
+                                <span class="score-bar-val">120</span>
+                            </div>
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Reading</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 71.875%"></div></div>
+                                <span class="score-bar-val">115</span>
+                            </div>
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Listening</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 81.25%"></div></div>
+                                <span class="score-bar-val">130</span>
+                            </div>
+                        </div>
+                        <a href="https://certs.duolingo.com/9o4eqpg6tbhtatsf" target="_blank" class="btn score-verify-btn">Verify Certificate →</a>
+                    </div>
+                    <div class="score-card gs-reveal">
+                        <div class="score-card-header">
+                            <div>
+                                <h3>Graduate Record Examination (GRE)</h3>
+                                <span class="date">Jul 2025</span>
+                            </div>
+                            <div class="score-total">
+                                <span class="score-number">330</span>
+                                <span class="score-denom">/ 340</span>
+                            </div>
+                        </div>
+                        <div class="score-bars">
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Verbal</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 86%"></div></div>
+                                <span class="score-bar-val">161 <em>(86th %ile)</em></span>
+                            </div>
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Quantitative</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 86%"></div></div>
+                                <span class="score-bar-val">169 <em>(86th %ile)</em></span>
+                            </div>
+                            <div class="score-bar-item">
+                                <span class="score-bar-label">Analytical Writing</span>
+                                <div class="score-bar-track"><div class="score-bar-fill" style="width: 43%"></div></div>
+                                <span class="score-bar-val">3.5 <em>(43rd %ile)</em></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category gs-reveal">
+                        <h3>Languages</h3>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category gs-reveal">
+                        <h3>Technologies &amp; Tools</h3>
+                        <ul class="skill-list">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Git</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category gs-reveal">
+                        <h3>Cybersecurity</h3>
+                        <ul class="skill-list">
+                            <li>Penetration Testing</li>
+                            <li>Vulnerability Scanning</li>
+                            <li>Network Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section alt-bg">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Certifications &amp; Honors</h2>
+                </div>
+                <div class="cert-grid">
+                    <div class="cert-card gs-reveal" data-verify-url="https://badges.plus.columbia.edu/83145fdd-e77b-4022-b9d4-117cbccf0ef5#acc.Xzew8OcE"
+                        data-title="AI Through Visualization" data-provider="Columbia University"
+                        data-skills="Data Visualization, AI Implementation"
+                        data-img="https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=fs2o8aur&variant=medium">
+                        <div class="cert-content">
+                            <h3>AI Through Visualization</h3>
+                            <p>Columbia+</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <img src="https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=fs2o8aur&variant=medium" alt="Learning AI Through Visualization" class="cert-img-placeholder">
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Data Visualization, AI Implementation</p>
+                                <h4>Provider:</h4>
+                                <p>Columbia University</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://graphacademy.neo4j.com/c/f088a375-fa32-4c14-a8c0-8ce0dd8919aa/"
+                        data-title="Neo4j Certified Professional" data-provider="Neo4j GraphAcademy"
+                        data-skills="Graph Databases, Cypher Query"
+                        data-img="neo4j-cert.png">
+                        <div class="cert-content">
+                            <h3>Neo4j Certified Professional</h3>
+                            <p>Neo4j</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <img src="neo4j-cert.png" alt="Neo4j Certified Professional" class="cert-img-placeholder neo4j-crop">
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Graph Databases, Cypher Query</p>
+                                <h4>Provider:</h4>
+                                <p>Neo4j GraphAcademy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://www.credly.com/badges/948bc585-3a43-4388-ace5-16f958abd8e3/linked_in_profile"
+                        data-title="Cloud Cybersecurity" data-provider="Google"
+                        data-skills="Cloud Security, Threat Analysis"
+                        data-img="google-cert.png">
+                        <div class="cert-content">
+                            <h3>Cloud Cybersecurity</h3>
+                            <p>Google</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <div class="cert-img-placeholder" style="background: transparent;">
+                                <img src="google-cert.png" alt="Google Cloud Cybersecurity" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Cloud Security, Threat Analysis</p>
+                                <h4>Provider:</h4>
+                                <p>Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://catalog-education.oracle.com/ords/certview/sharebadge?id=059B313F5DE072A3730229BB818D6AFA9B989C1BCEDA9E37127A4CD04EEA34EE"
+                        data-title="Oracle Foundations Associate" data-provider="Oracle"
+                        data-skills="Oracle Cloud Infrastructure, DB"
+                        data-img="oracle-cert.png">
+                        <div class="cert-content">
+                            <h3>Oracle Foundations Associate</h3>
+                            <p>Oracle</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <img src="oracle-cert.png" alt="Oracle Foundations Associate" class="cert-img-placeholder">
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Oracle Cloud Infrastructure, DB</p>
+                                <h4>Provider:</h4>
+                                <p>Oracle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://www.credly.com/badges/6672e8bc-e19a-448d-b251-741f7972d02f/linked_in_profile"
+                        data-title="Ethical Hacker" data-provider="Cisco Networking Academy"
+                        data-skills="Penetration Testing, Ethical Hacking"
+                        data-img="cisco-cert.png">
+                        <div class="cert-content">
+                            <h3>Ethical Hacker</h3>
+                            <p>Cisco</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <div class="cert-img-placeholder" style="background: transparent;">
+                                <img src="cisco-cert.png" alt="Cisco Ethical Hacker" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Penetration Testing, Ethical Hacking</p>
+                                <h4>Provider:</h4>
+                                <p>Cisco Networking Academy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://www.credly.com/badges/24f98514-422c-4380-ba3d-fbbc370d93e4/linked_in_profile"
+                        data-title="Data Analytics" data-provider="Amazon Web Services"
+                        data-skills="Data Pipelines, AWS Analytics Services"
+                        data-img="aws-cert.png">
+                        <div class="cert-content">
+                            <h3>Data Analytics</h3>
+                            <p>AWS</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <div class="cert-img-placeholder" style="background: transparent;">
+                                <img src="aws-cert.png" alt="AWS Data Analytics" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Data Pipelines, AWS Analytics Services</p>
+                                <h4>Provider:</h4>
+                                <p>Amazon Web Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://courses.edx.org/certificates/84253314b3c44df496e9fcb5a4f10582"
+                        data-title="Cybersecurity Compliance" data-provider="Edx"
+                        data-skills="IT Compliance, Security Frameworks"
+                        data-img="edx-cert.png">
+                        <div class="cert-content">
+                            <h3>Cybersecurity Compliance</h3>
+                            <p>Edx</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <div class="cert-img-placeholder" style="background: transparent;">
+                                <img src="edx-cert.png" alt="Cybersecurity Compliance" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>IT Compliance, Security Frameworks</p>
+                                <h4>Provider:</h4>
+                                <p>Edx</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://www.linkedin.com/learning/certificates/38e06a8d02b782520b09178496db49b137daf64e8db0010294a788eb1d1198c2"
+                        data-title="Essentials in Generative AI" data-provider="Microsoft / LinkedIn Learning"
+                        data-skills="LLMs, Prompt Engineering"
+                        data-img="microsoft-cert.png">
+                        <div class="cert-content">
+                            <h3>Essentials in Generative AI</h3>
+                            <p>Microsoft</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <div class="cert-img-placeholder" style="background: transparent;">
+                                <img src="microsoft-cert.png" alt="Essentials in Generative AI" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>LLMs, Prompt Engineering</p>
+                                <h4>Provider:</h4>
+                                <p>Microsoft / LinkedIn Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card gs-reveal" data-verify-url="https://www.credly.com/badges/64c0bf04-6379-4a18-bf17-29062b353826/linked_in_profile"
+                        data-title="AWS Cloud Essentials" data-provider="Amazon Web Services"
+                        data-skills="Cloud Computing, AWS Infrastructure"
+                        data-img="aws-essentials-cert.png">
+                        <div class="cert-content">
+                            <h3>AWS Cloud Essentials</h3>
+                            <p>AWS</p>
+                        </div>
+                        <div class="cert-hover-window">
+                            <div class="cert-img-placeholder" style="background: transparent;">
+                                <img src="aws-essentials-cert.png" alt="AWS Cloud Essentials" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="cert-hover-details">
+                                <h4>Skills Gained:</h4>
+                                <p>Cloud Computing, AWS Infrastructure</p>
+                                <h4>Provider:</h4>
+                                <p>Amazon Web Services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="cert-modal" class="cert-modal-overlay">
+            <div class="cert-modal-box">
+                <button class="cert-modal-close" id="cert-modal-close">&times;</button>
+                <img id="modal-img" src="" alt="" class="modal-cert-img">
+                <div class="modal-cert-body">
+                    <h3 id="modal-title"></h3>
+                    <p class="modal-provider" id="modal-provider"></p>
+                    <div class="modal-skills">
+                        <h4>Skills Gained</h4>
+                        <p id="modal-skills"></p>
+                    </div>
+                    <a id="modal-verify-btn" href="#" target="_blank" class="btn modal-verify-btn">Verify Certificate →</a>
+                </div>
+            </div>
+        </div>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <div class="project-card gs-reveal">
+                        <div class="project-info">
+                            <span class="date">Dec 2024 – Mar 2025</span>
+                            <h3>HeartStrokeDetection</h3>
+                            <p class="proj-type">ML &amp; Predictive Analytics</p>
+                            <p>Implemented Random Forest, SVM, Logistic Regression, KNN and AdaBoost classifiers to predict heart disease and stroke risk with high accuracy. Includes data preprocessing pipeline and model comparison report.</p>
+                            <p class="tech">Python · Scikit-Learn · Pandas · Machine Learning</p>
+                            <a href="https://github.com/Rohitbokam/Heart-Stroke-Prediction" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card gs-reveal">
+                        <div class="project-info">
+                            <span class="date">Aug 2022 – Dec 2022</span>
+                            <h3>Startupz</h3>
+                            <p class="proj-type">UI/UX Design &amp; Prototyping</p>
+                            <p>Designed a SaaS platform offering mentor access, funding discovery, patent filing support, and talent matching. Delivered a fully interactive Figma prototype with user-centric UI flows.</p>
+                            <p class="tech">Figma · UI/UX Design · Prototyping · SaaS</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card gs-reveal">
+                        <div class="project-info">
+                            <span class="date">Mar 2025 – Jul 2025</span>
+                            <h3>Automated Penetration Testing Platform</h3>
+                            <p class="proj-type">Cybersecurity &amp; DevSecOps</p>
+                            <p>Built an end-to-end platform for automated vulnerability scanning, exploitation, and report generation. Seamlessly integrated with CI/CD pipelines for continuous security validation.</p>
+                            <p class="tech">Python · Bash · Cybersecurity · CI/CD</p>
+                            <a href="https://github.com/Rohitbokam/Penetration-testing" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card gs-reveal">
+                        <div class="project-info">
+                            <span class="date">Jun 2025 – Sep 2025</span>
+                            <h3>Automated Job Application Workflow</h3>
+                            <p class="proj-type">Automation &amp; Web Scraping</p>
+                            <p>Engineered a Python + Selenium system to automate job discovery, smart filtering, application submission, and progress tracking — reducing manual effort by over 80%.</p>
+                            <p class="tech">Python · Selenium · Automation · Web Scraping</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteering" class="section alt-bg">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Volunteering</h2>
+                </div>
+                <div class="vol-list">
+                    <div class="vol-item gs-reveal">
+                        <div class="vol-header">
+                            <div>
+                                <h3>Team Lead</h3>
+                                <p class="vol-org">National Service Scheme (NSS)</p>
+                            </div>
+                            <span class="date">Oct 2022 – Mar 2025</span>
+                        </div>
+                        <p>Led awareness campaigns and community development programs while managing student teams.</p>
+                    </div>
+                    <div class="vol-item gs-reveal">
+                        <div class="vol-header">
+                            <div>
+                                <h3>Community Volunteer</h3>
+                                <p class="vol-org">Muskurahat Foundation</p>
+                            </div>
+                            <span class="date">Aug 2023 – Sep 2023</span>
+                        </div>
+                        <p>Conducted fundraising campaigns and outreach programs.</p>
+                    </div>
+                    <div class="vol-item gs-reveal">
+                        <div class="vol-header">
+                            <div>
+                                <h3>Fundraising Volunteer</h3>
+                                <p class="vol-org">InAmigos Foundation</p>
+                            </div>
+                            <span class="date">Jun 2023</span>
+                        </div>
+                        <p>Supported environmental and social initiatives through fundraising activities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Publications</h2>
+                </div>
+                <div class="pub-list">
+                    <div class="pub-item gs-reveal">
+                        <div class="pub-body">
+                            <p class="pub-journal">International Journal of Scientific Research in Engineering and Management &mdash; March 2025</p>
+                            <h3>Predicting Heartstroke Using Machine Learning and Generative AI</h3>
+                            <p class="pub-desc">Developed a hybrid ML + Generative AI pipeline to predict heart stroke risk. Evaluated ensemble models alongside a GPT-based explanation module, achieving state-of-the-art accuracy on clinical datasets.</p>
+                        </div>
+                        <a href="https://www.ijsrem.com/download/predicting-heartstroke-using-machine-learning-and-generative-ai" target="_blank" class="btn pub-btn">View Publication →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="honors" class="section alt-bg">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Honors &amp; Awards</h2>
+                </div>
+                <div class="honors-grid">
+                    <div class="honor-card gs-reveal">
+                        <span class="honor-bullet">★</span>
+                        <div>
+                            <h3>Best NSS Volunteer</h3>
+                            <p>National Service Scheme &mdash; 2024</p>
+                            <p class="honor-desc">Recognized for outstanding leadership and community impact across 2+ years of service.</p>
+                        </div>
+                    </div>
+                    <div class="honor-card gs-reveal">
+                        <span class="honor-bullet">★</span>
+                        <div>
+                            <h3>Innovation Fair Finalist</h3>
+                            <p>JNTU-V &mdash; 2022</p>
+                            <p class="honor-desc">Selected as a finalist at the university-wide Innovation Fair for the Startupz platform concept.</p>
+                        </div>
+                    </div>
+                    <div class="honor-card gs-reveal">
+                        <span class="honor-bullet">★</span>
+                        <div>
+                            <h3>Security Research Recognition</h3>
+                            <p>GOG &mdash; 2020</p>
+                            <p class="honor-desc">Acknowledged for responsible disclosure of a critical vulnerability during independent security research.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title scale-title">Connect</h2>
+                </div>
+                <div class="contact-wrap gs-reveal">
+                    <div class="contact-links">
+                        <a href="mailto:Rohitbkm8@gmail.com" class="big-link">Rohitbkm8@gmail.com</a>
+                        <a href="https://github.com/Rohitbokam" target="_blank" class="big-link">github.com/Rohitbokam</a>
+                        <a href="https://linkedin.com/in/rohitbokam" target="_blank" class="big-link">in/rohitbokam</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>© 2026 Rohit Bokam. Built with ❤️ /Passion.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
