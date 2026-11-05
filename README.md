@@ -1,6 +1,4 @@
-# Rohit Bokam – Portfolio
-
-Static site, no build step. Open `index.html` in a browser or host the folder anywhere (GitHub Pages, Netlify, Vercel).
+# Rohit Bokam
 
 - `index.html` – page content
 - `css/style.css` – all styles
